@@ -173,7 +173,6 @@
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
-// optional style for arrows & dots
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
@@ -181,19 +180,11 @@ export default {
   data() {
     return {
       slickOptions: {
-        /*
-        arrows: false,
-        dots: true,
-        */
         infinite: true,
         centerMode: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         variableWidth: true,
-        /*
-        autoplay: true,
-        autoplaySpeed: 2000,
-        */
       },
     };
   },
